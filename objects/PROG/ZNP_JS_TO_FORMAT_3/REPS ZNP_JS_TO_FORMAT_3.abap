@@ -17,7 +17,7 @@ REPORT znp_js_to_format_3.
 
 *PARAMETERS: p_input TYPE c LENGTH 13 OBLIGATORY DEFAULT '7154817480558'.
 
-START-OF-SELECTION.
+START-OF-SELECTION .
 
 *  IF strlen( p_input ) < 13.
 *    MESSAGE 'Input should be 13 characters' TYPE 'S'.
