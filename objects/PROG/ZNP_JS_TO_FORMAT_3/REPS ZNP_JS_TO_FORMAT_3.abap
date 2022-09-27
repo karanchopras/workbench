@@ -13,7 +13,7 @@ REPORT znp_js_to_format_3.
 ** Dynamic Expression
 *DATA: v_original   TYPE string,
 *      v_expression TYPE string,
-*      v_output     TYPE string .
+*      v_output     TYPE string  .
 
 *PARAMETERS: p_input TYPE c LENGTH 13 OBLIGATORY DEFAULT '7154817480558'.
 
