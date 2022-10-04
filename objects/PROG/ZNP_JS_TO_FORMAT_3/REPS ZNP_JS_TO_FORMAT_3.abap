@@ -37,7 +37,7 @@ START-OF-SELECTION .
 * JS Source
   CONCATENATE
   v_org_str
-  'var coordinate; '
+  'var coordinate;  '
 *'const DEFAULT_PRECISION = 5;'
 'const ENCODING_TABLE = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";'
 'const DECODING_TABLE = ['
