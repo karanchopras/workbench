@@ -5,4 +5,4 @@
 *&---------------------------------------------------------------------*
 REPORT ZJHRA_GCTS_01.
 
-WRITE: 'gCTS config tests'. ##NO_TEXT
+WRITE: 'gCTS config tests-01'. ##NO_TEXT
