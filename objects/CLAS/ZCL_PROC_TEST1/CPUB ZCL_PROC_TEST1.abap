@@ -4,3 +4,4 @@ CLASS zcl_proc_test1 DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
+    methods write.
