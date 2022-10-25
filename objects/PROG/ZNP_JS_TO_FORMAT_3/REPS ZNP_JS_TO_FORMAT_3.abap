@@ -38,7 +38,7 @@ START-OF-SELECTION .
   CONCATENATE
   v_org_str
   'var coordinate;   '
-  " Test conflict -> 1
+  " Test conflict -> 2
 *'const DEFAULT_PRECISION = 5;'
 'const ENCODING_TABLE = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";'
 'const DECODING_TABLE = ['
