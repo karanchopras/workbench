@@ -24,7 +24,7 @@ START-OF-SELECTION .
 *    LEAVE LIST-PROCESSING.
 *  ENDIF.
 
-  v_original = 'BGsy2y_CoojoP8G8BkD_EoBvHUj6BoB_EwCjDgFvCsEToGA7B0F7BwHnBkIT8GAkIUsJ8B4I8BoGwCoGkDoG4D0F4DsEsEsE0FgF8G0FsEsE4D0F4D8GkD0FkD8GgKoV4I0UsEsJ4DwH4D8G4DoG'.
+  v_original = 'GIT_BGsy2y_CoojoP8G8BkD_EoBvHUj6BoB_EwCjDgFvCsEToGA7B0F7BwHnBkIT8GAkIUsJ8B4I8BoGwCoGkDoG4D0F4DsEsEsE0FgF8G0FsEsE4D0F4D8GkD0FkD8GgKoV4I0UsEsJ4DwH4D8G4DoG'.
 * JS Object
   js_processor = cl_java_script=>create( ).
 
@@ -38,8 +38,7 @@ START-OF-SELECTION .
   CONCATENATE
   v_org_str
   'var coordinate;   '
-   " Test conflict -> 1 
-   " Test conflict -> 2
+  " Test conflict -> 1
 *'const DEFAULT_PRECISION = 5;'
 'const ENCODING_TABLE = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";'
 'const DECODING_TABLE = ['
