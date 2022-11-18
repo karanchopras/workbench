@@ -19,6 +19,8 @@ DATA: v_original   TYPE string,
 
 START-OF-SELECTION .
 
+*New Comment 18-11
+
 *  IF strlen( p_input ) < 13.
 *    MESSAGE 'Input should be 13 characters' TYPE 'S'.
 *    LEAVE LIST-PROCESSING.
