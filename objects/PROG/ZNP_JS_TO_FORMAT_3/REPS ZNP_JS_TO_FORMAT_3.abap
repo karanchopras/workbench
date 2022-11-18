@@ -13,7 +13,7 @@ DATA: js_processor TYPE REF TO cl_java_script,
 * Dynamic Expression
 DATA: v_original   TYPE string,
       v_expression TYPE string,
-      v_output     TYPE string  .
+      v_output     TYPE string   .
 
 *PARAMETERS: p_input TYPE c LENGTH 13 OBLIGATORY DEFAULT '7154817480558'.
 
@@ -38,7 +38,6 @@ START-OF-SELECTION .
   CONCATENATE
   v_org_str
   'var coordinate;   '
-  " Test conflict -> 1
 *'const DEFAULT_PRECISION = 5;'
 'const ENCODING_TABLE = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";'
 'const DECODING_TABLE = ['
