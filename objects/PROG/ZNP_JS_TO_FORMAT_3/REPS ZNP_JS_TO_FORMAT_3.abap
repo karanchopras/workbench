@@ -19,12 +19,6 @@ DATA: v_original   TYPE string,
 
 START-OF-SELECTION .
 
-*New Comment 18-11
-
-*  IF strlen( p_input ) < 13.
-*    MESSAGE 'Input should be 13 characters' TYPE 'S'.
-*    LEAVE LIST-PROCESSING.
-*  ENDIF.
 
   v_original = 'BGsy2y_CoojoP8G8BkD_EoBvHUj6BoB_EwCjDgFvCsEToGA7B0F7BwHnBkIT8GAkIUsJ8B4I8BoGwCoGkDoG4D0F4DsEsEsE0FgF8G0FsEsE4D0F4D8GkD0FkD8GgKoV4I0UsEsJ4DwH4D8G4DoG'.
 * JS Object
