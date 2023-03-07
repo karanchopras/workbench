@@ -9,8 +9,8 @@ pipeline {
     DEMOCREDS = 'ABAPUserPasswordCredentialsId'
     HOST = 'https://saps4s.camelot-idpro.de:44300'
     CLIENT = '100'
-    REPO = '<repository name>'
-    REPO_URL = "<URL of the remote Git Repository>"
+    REPO = 'workbench'
+    REPO_URL = "https://github.com/karanchopras/workbench.git"
   }
 
   stages {
