@@ -27,6 +27,7 @@ pipeline {
           client: CLIENT,
           abapCredentialsId: DEMOCREDS,
           repository: REPO,
+          verbose: true,
           remoteRepositoryURL: REPO_URL,
           role: 'SOURCE',
           vSID: 'GIT')
