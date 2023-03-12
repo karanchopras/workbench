@@ -14,6 +14,9 @@ pipeline {
   }
 
 
+  stages {
+  
+    
     stage('gctsExecuteABAPQualityChecks') {
       when {
         anyOf {
