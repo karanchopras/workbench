@@ -54,6 +54,7 @@ pipeline {
           client: CLIENT,
           abapCredentialsId: DEMOCREDS,
           repository: REPO,
+          verbose: true,
           scope: 'localChangedObjects',
           commit: "${env.GIT_COMMIT}",
           workspace: "${WORKSPACE}")
