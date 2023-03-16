@@ -6,18 +6,7 @@ pipeline {
   }
   stages {
     
-    stage('prepare') {
-    when { 
-        anyOf { 
-          branch 'main' 
-        } 
-    }
-    steps {
-          checkout scm
-          setupCommonPipelineEnvironment script:this
-        }
-    }
-    
+   
     stage('gCTS Deploy') {
       when {
         anyOf {
@@ -28,6 +17,8 @@ pipeline {
       steps {
         gctsDeploy(
           script: this
+          )
+      }
     }
     
     stage('gctsExecuteABAPQualityChecks') {
