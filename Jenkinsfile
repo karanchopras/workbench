@@ -28,7 +28,6 @@ pipeline {
       steps {
         gctsDeploy(
           script: this
-      }
     }
     
     stage('gctsExecuteABAPQualityChecks') {
