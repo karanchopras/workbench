@@ -11,3 +11,10 @@ general:
           verbose: true
           type: "GITHUB"
           rollback: false
+          
+    Build:
+      kanikoExecute: true
+    Acceptance:
+      kubernetesDeploy: true
+    Release:
+      kubernetesDeploy: true
