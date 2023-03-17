@@ -11,7 +11,7 @@ general:
           verbose: true
           type: "GITHUB"
           rollback: false
- stages:       
+  stages:       
     Build:
       kanikoExecute: true
     Acceptance:
