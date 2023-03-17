@@ -21,6 +21,21 @@ pipeline {
       }
     }
     
+    
+      stage('build') {
+      when {
+        anyOf {
+          branch 'main'
+        }
+      }
+      
+      steps {
+        buildExecute(
+          script: this
+          )
+      }
+    }
+    
     stage('gctsExecuteABAPQualityChecks') {
       when {
         anyOf {
