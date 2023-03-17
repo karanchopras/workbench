@@ -13,7 +13,7 @@ general:
           rollback: false
   stages:       
     Build:
-      kanikoExecute: true
+      buildExecute: true
     Acceptance:
       kubernetesDeploy: true
     Release:
