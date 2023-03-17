@@ -4,6 +4,15 @@ pipeline {
   options {
     disableConcurrentBuilds()
   }
+  
+    environment {
+    DEMOCREDS = 'S4S_KCHO'
+    HOST = 'http://saps4s.camelot-idpro.de:44300'
+    CLIENT = '100'
+    REPO = 'karanchopras-workbench'
+    REPO_URL = "https://github.com/karanchopras/workbench"
+  }
+  
   stages {
     
    
@@ -16,7 +25,14 @@ pipeline {
       
       steps {
         gctsDeploy(
-          script: this
+          script: this,
+          host: HOST,
+          client: CLIENT,
+          abapCredentialsId: DEMOCREDS,
+          repository: REPO,
+          remoteRepositoryURL: REPO_URL,
+          role: 'SOURCE',
+          vSID: 'GIT')
           )
       }
     }
