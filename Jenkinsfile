@@ -33,7 +33,7 @@ pipeline {
           remoteRepositoryURL: REPO_URL,
           role: 'SOURCE',
           vSID: 'GIT')
-          )
+          
       }
     }
     
