@@ -9,5 +9,5 @@ general:
           role: "SOURCE"
           vSID: "GIT"
           verbose: true
-          type: "GIT"
+          type: "GITHUB"
           rollback: false
