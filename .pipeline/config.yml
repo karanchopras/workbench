@@ -1,7 +1,7 @@
 general:
   steps:
     gctsDeploy:
-          host: "http://saps4s.camelot-idpro.de:44300"
+          host: "https://saps4s.camelot-idpro.de:44300"
           client: "100"
           abapCredentialsId: "S4S_KCHO"
           repository: "karanchopras-workbench"
@@ -9,5 +9,5 @@ general:
           role: "SOURCE"
           vSID: "GIT"
           verbose: true
-          type: "GITHUB"
+          type: "GIT"
           rollback: false
