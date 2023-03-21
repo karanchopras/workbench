@@ -7,7 +7,7 @@ pipeline {
 
   environment {
     DEMOCREDS='ABAP'
-    HOST='http://saps4s.camelot-idpro.de:44300'
+    HOST='https://saps4s.camelot-idpro.de:44300'
     CLIENT='100'
     REPO='karanchopras-workbench'
     REPO_URL="https://github.com/karanchopras/workbench"
