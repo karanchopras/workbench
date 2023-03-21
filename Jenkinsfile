@@ -28,6 +28,7 @@ pipeline {
           abapCredentialsId:DEMOCREDS,
           repository:REPO,
           remoteRepositoryURL:REPO_URL,
+          verbose:true,
           role:'SOURCE',
           vSID:'GIT')
       }
