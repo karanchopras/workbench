@@ -36,7 +36,7 @@ pipeline {
     stage('gctsExecuteABAPQualityChecks') {
       when {
         anyOf {
-          branch 'main'
+          branch 'gCTS'
         }
       }
       steps {
@@ -63,7 +63,7 @@ pipeline {
 stage('Results in Checkstyle') {
   when {
       anyOf {
-        branch 'main'
+        branch 'gCTS'
       }
     }
   steps{
