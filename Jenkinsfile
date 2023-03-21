@@ -17,7 +17,7 @@ pipeline {
     stage('gCTS Deploy') {
       when {
         anyOf {
-          branch 'main'
+          branch 'gCTS'
         }
       }
       steps {
