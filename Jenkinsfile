@@ -6,33 +6,12 @@ pipeline {
   }
 
   environment {
-    DEMOCREDS='ABAP_JHRA'
+    DEMOCREDS='ABAP'
     HOST='https://saps4s.camelot-idpro.de:44300'
     CLIENT='100'
     REPO='karanchopras-workbench'
     REPO_URL="https://github.com/karanchopras/workbench"
   }
-
-  stages {
-    stage('gCTS Deploy') {
-      when {
-        anyOf {
-          branch 'gCTS'
-        }
-      }
-      steps {
-        gctsDeploy(
-          script:this,
-          host:HOST,
-          client:CLIENT,
-          abapCredentialsId:DEMOCREDS,
-          repository:REPO,
-          remoteRepositoryURL:REPO_URL,
-          verbose:true,
-          role:'SOURCE',
-          vSID:'GIT')
-      }
-    }
 
     stage('gctsExecuteABAPQualityChecks') {
       when {
