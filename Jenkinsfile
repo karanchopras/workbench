@@ -16,7 +16,26 @@ pipeline {
   
   stages {
 
-
+    stage('gCTS Deploy') {
+      when {
+        anyOf {
+          branch 'gCTS'
+        }
+      }
+      steps {
+        gctsDeploy(
+          script:this,
+          host:HOST,
+          client:CLIENT,
+          abapCredentialsId:DEMOCREDS,
+          repository:REPO,
+          remoteRepositoryURL:REPO_URL,
+          verbose:true,
+          role:'SOURCE',
+          vSID:'GIT')
+      }
+    }
+    
     stage('gctsExecuteABAPQualityChecks') {
       when {
         anyOf {
