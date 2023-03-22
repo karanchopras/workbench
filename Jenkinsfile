@@ -13,6 +13,10 @@ pipeline {
     REPO_URL="https://github.com/karanchopras/workbench"
   }
 
+  
+  stages {
+
+
     stage('gctsExecuteABAPQualityChecks') {
       when {
         anyOf {
