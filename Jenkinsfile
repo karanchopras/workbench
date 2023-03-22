@@ -6,7 +6,7 @@ pipeline {
   }
 
   environment {
-    DEMOCREDS='ABAP'
+    DEMOCREDS='ABAP_JHRA'
     HOST='https://saps4s.camelot-idpro.de:44300'
     CLIENT='100'
     REPO='karanchopras-workbench'
