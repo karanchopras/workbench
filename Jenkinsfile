@@ -50,6 +50,7 @@ pipeline {
           script:this,
           host:HOST,
           client:CLIENT,
+          verbose:true,
           abapCredentialsId:DEMOCREDS,
           repository:REPO,
           scope:'localChangedObjects',
