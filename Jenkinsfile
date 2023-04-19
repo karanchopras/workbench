@@ -29,6 +29,7 @@ pipeline {
           client:CLIENT,
           abapCredentialsId:DEMOCREDS,
           repository:REPO,
+          skipSSLVerification:true,
           remoteRepositoryURL:REPO_URL,
           verbose:true,
           role:'SOURCE',
