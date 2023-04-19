@@ -53,6 +53,7 @@ pipeline {
           verbose:true,
           abapCredentialsId:DEMOCREDS,
           repository:REPO,
+          skipSSLVerification:true,
           scope:'localChangedPackages',
           commit:"${env.GIT_COMMIT}",
           workspace:"${WORKSPACE}")
