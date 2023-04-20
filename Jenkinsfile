@@ -50,9 +50,11 @@ pipeline {
           script:this,
           host:HOST,
           client:CLIENT,
+          verbose:true,
           abapCredentialsId:DEMOCREDS,
           repository:REPO,
-          scope:'localChangedObjects',
+          skipSSLVerification:true,
+          scope:'localChangedPackages',
           commit:"${env.GIT_COMMIT}",
           workspace:"${WORKSPACE}")
         } catch (Exception ex) {
