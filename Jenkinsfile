@@ -92,6 +92,7 @@ stage('Rollback') {
                 script:this,
                 host:HOST,
                 client:CLIENT,
+                skipSSLVerification:true,
                 abapCredentialsId:DEMOCREDS,
                 repository:REPO
           )
