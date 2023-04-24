@@ -1,0 +1,13 @@
+general:
+  steps:
+    gctsDeploy:
+          client: '100'
+          host: "https://saps4s.camelot-idpro.de:44300"
+          abapCredentialsId: 'ABAP'
+          repository: "karanchopras-workbench"
+          remoteRepositoryURL: "https://github.com/karanchopras/workbench"
+          role: 'SOURCE'
+          vSID: 'GIT'
+          verbose: true
+          type: 'GITHUB'
+          rollback: false

@@ -1,4 +1,5 @@
 @Library(['piper-lib-os']) _
+<<<<<<< HEAD
 pipeline {
   agent any
   options {
@@ -20,7 +21,14 @@ pipeline {
       when {
         anyOf {
           branch 'gCTS'
+=======
+pipeline{
+        agent any
+      options {
+        disableConcurrentBuilds()
+>>>>>>> 84859b68f873aa21bf3abe22f608d5b198650162
         }
+<<<<<<< HEAD
       }
       steps {
         gctsDeploy(
@@ -41,7 +49,25 @@ pipeline {
       when {
         anyOf {
           branch 'gCTS'
+=======
+        stages {
+                stage('prepare') {
+                when { anyOf { branch 'main' } }
+                        steps {
+                                checkout scm
+                                setupCommonPipelineEnvironment script : this
+                        }
+                }
+                stage('Deploy') {
+                        when { anyOf { branch 'main' } }
+                        steps {
+                                gctsDeploy script: this
+
+                        }
+                }
+>>>>>>> 84859b68f873aa21bf3abe22f608d5b198650162
         }
+<<<<<<< HEAD
       }
       steps {
         script {
@@ -101,4 +127,6 @@ stage('Rollback') {
     }
   }
 
+=======
+>>>>>>> 84859b68f873aa21bf3abe22f608d5b198650162
 }
