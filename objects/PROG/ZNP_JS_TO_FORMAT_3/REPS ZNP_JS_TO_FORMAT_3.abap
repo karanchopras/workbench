@@ -24,7 +24,7 @@ START-OF-SELECTION .
   v_original = 'BGsy2y_CoojoP8G8BkD_EoBvHUj6BoB_EwCjDgFvCsEToGA7B0F7BwHnBkIT8GAkIUsJ8B4I8BoGwCoGkDoG4D0F4DsEsEsE0FgF8G0FsEsE4D0F4D8GkD0FkD8GgKoV4I0UsEsJ4DwH4D8G4DoG'.
 
   js_processor = cl_java_script=>create( ).
-*  SELECT * FROM mara INTO TABLE @DATA(lt_mara). Test
+  SELECT * FROM mara INTO TABLE @DATA(lt_mara).
 
   DATA: v_org_str TYPE string.
   DATA: v_exp_str TYPE string.
