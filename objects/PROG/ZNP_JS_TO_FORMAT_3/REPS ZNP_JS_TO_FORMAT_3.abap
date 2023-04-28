@@ -18,7 +18,7 @@ DATA: v_original   TYPE string,
 
 START-OF-SELECTION .
 
-*New Comment 25-11s
+*New Comment 25-11
 *23_03_2023
 *New Comment - 23-11
   v_original = 'BGsy2y_CoojoP8G8BkD_EoBvHUj6BoB_EwCjDgFvCsEToGA7B0F7BwHnBkIT8GAkIUsJ8B4I8BoGwCoGkDoG4D0F4DsEsEsE0FgF8G0FsEsE4D0F4D8GkD0FkD8GgKoV4I0UsEsJ4DwH4D8G4DoG'.
@@ -28,4 +28,4 @@ START-OF-SELECTION .
 
   DATA: v_org_str TYPE string.
   DATA: v_exp_str TYPE string.
-  v_org_str = 'var V_INPUT = ' && '"' && v_original && '"' && ';'.
+  v_org_str = 'var V_INPU T = ' && '"' && v_original && '"' && ';'.
