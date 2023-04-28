@@ -52,6 +52,7 @@ pipeline {
           client:CLIENT,
           verbose:true,
           abapCredentialsId:DEMOCREDS,
+          atcVariant:'ABAP_CLOUD_READINESS',  
           repository:REPO,
           skipSSLVerification:true,
           scope:'localChangedPackages',
