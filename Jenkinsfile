@@ -4,7 +4,7 @@ pipeline {
   options {
     disableConcurrentBuilds()
   }
-
+  
   environment {
     DEMOCREDS= 'ABAP_SP2'
     HOST= 'https://sapsp2.camelot-idpro.de:44300'
@@ -13,7 +13,6 @@ pipeline {
     REPO_URL= "https://github.com/karanchopras/workbench"
   }
 
-  
   stages {
 
     stage('gCTS Deploy') {
@@ -25,15 +24,8 @@ pipeline {
       steps {
         gctsDeploy(
           script:this,
-          host:HOST,
-          client:CLIENT,
-          abapCredentialsId:DEMOCREDS,
-          repository:REPO,
           skipSSLVerification:true,
-          remoteRepositoryURL:REPO_URL,
-          verbose:true,
-          role:'SOURCE',
-          vSID:'GIT')
+          verbose:true)
       }
     }
     
@@ -48,14 +40,13 @@ pipeline {
           try {
           gctsExecuteABAPQualityChecks(
           script:this,
-          host:HOST,
-          client:CLIENT,
+          host: HOST,
+          client: CLIENT,
+          abapCredentialsId: DEMOCREDS,
+          repository: REPO,            
           verbose:true,
-          abapCredentialsId:DEMOCREDS,
-          repository:REPO,
           skipSSLVerification:true,
           scope:'localChangedPackages',
-          atcVariant:'ABAP_CLOUD_READINESS',  
           commit:"${env.GIT_COMMIT}",
           workspace:"${WORKSPACE}")
         } catch (Exception ex) {
@@ -91,12 +82,11 @@ stage('Rollback') {
             steps {
               gctsRollback(
                 script:this,
-                host:HOST,
-                client:CLIENT,
                 skipSSLVerification:true,
-                abapCredentialsId:DEMOCREDS,
-                repository:REPO
-          )
+                host: HOST,
+                client: CLIENT,
+                abapCredentialsId: DEMOCREDS,
+                repository: REPO)
 
       }
     }

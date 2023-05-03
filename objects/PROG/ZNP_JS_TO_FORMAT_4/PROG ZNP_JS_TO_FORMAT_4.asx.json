@@ -6,15 +6,15 @@
    {
     "PGMID":"R3TR",
     "OBJECT":"PROG",
-    "OBJ_NAME":"ZNP_JS_TO_FORMAT_3",
+    "OBJ_NAME":"ZNP_JS_TO_FORMAT_4",
     "KORRNUM":"",
     "SRCSYSTEM":"...",
-    "AUTHOR":"KCHO",
+    "AUTHOR":"JHRA",
     "SRCDEP":"",
     "DEVCLASS":"ZDEVOPS",
     "GENFLAG":"",
     "EDTFLAG":"",
-    "CPROJECT":" S",
+    "CPROJECT":" L",
     "MASTERLANG":"E",
     "VERSID":"",
     "PAKNOCHECK":"",
@@ -23,8 +23,8 @@
     "CRELEASE":"",
     "DELFLAG":"",
     "TRANSLTTXT":"",
-    "CREATED_ON":"2022-09-16",
-    "CHECK_DATE":"0000-00-00",
+    "CREATED_ON":"2023-04-26",
+    "CHECK_DATE":"2023-04-26",
     "CHECK_CFG":""
    }
   ]
@@ -34,7 +34,7 @@
   "data":
   [
    {
-    "NAME":"ZNP_JS_TO_FORMAT_3",
+    "NAME":"ZNP_JS_TO_FORMAT_4",
     "VARCL":"X",
     "SUBC":"1",
     "UNAM":"KCHO",
@@ -50,9 +50,9 @@
   "data":
   [
    {
-    "NAME":"ZNP_JS_TO_FORMAT_3",
+    "NAME":"ZNP_JS_TO_FORMAT_4",
     "SPRSL":"E",
-    "TEXT":"Program ZNP_JS_TO_FORMAT_3"
+    "TEXT":"Program ZNP_JS_TO_FORMAT_4"
    }
   ]
  }
