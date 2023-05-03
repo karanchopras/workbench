@@ -45,7 +45,7 @@ CLASS ltc_demo_calc_util IMPLEMENTATION.
   ENDMETHOD.
   METHOD t_subtract.
 
-    "when
+    "when_1
     DATA(lv_result) = lo_cut->subtract( EXPORTING iv_num1 = 7
                                                  iv_num2 = 4 ).
     "then
