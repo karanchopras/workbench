@@ -32,11 +32,7 @@ pipeline {
           try {
           gctsExecuteABAPQualityChecks(
           script:this,
-          host:HOST,
-          client:CLIENT,
           verbose:true,
-          abapCredentialsId:DEMOCREDS,
-          repository:REPO,
           skipSSLVerification:true,
           scope:'localChangedPackages',
           commit:"${env.GIT_COMMIT}",
@@ -74,11 +70,7 @@ stage('Rollback') {
             steps {
               gctsRollback(
                 script:this,
-                host:HOST,
-                client:CLIENT,
-                skipSSLVerification:true,
-                abapCredentialsId:DEMOCREDS,
-                repository:REPO
+                skipSSLVerification:true
           )
 
       }
