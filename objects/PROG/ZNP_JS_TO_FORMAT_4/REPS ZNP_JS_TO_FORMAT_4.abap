@@ -26,9 +26,9 @@ START-OF-SELECTION.
   js_processor = cl_java_script=>create( ).
 *  SELECT * FROM mara INTO TABLE @DATA(lt_mara).
 
-  DATA: v_org_str TYPE string.
-  DATA: v_exp_str TYPE string.
-  v_org_str = 'var V_INPUT = ' && '"' && v_original && '"' && ';'.
+*  DATA: v_org_str TYPE string.
+*  DATA: v_exp_str TYPE string.
+*  v_org_str = 'var V_INPUT = ' && '"' && v_original && '"' && ';'.
 
 **  CONCATENATE 'var V_INPUT = ' '''"'v_original'"'';' INTO v_org_str.
 *
