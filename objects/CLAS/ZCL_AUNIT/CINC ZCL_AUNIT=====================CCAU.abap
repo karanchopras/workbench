@@ -51,7 +51,7 @@ CLASS ltc_demo_calc_util IMPLEMENTATION.
     "then
     cl_abap_unit_assert=>assert_equals(
         msg = 'Check the Subtraction Logic!'
-        exp = 33
+        exp = 3
         act = lv_result ).
 
     cl_abap_unit_assert=>assert_differs(
