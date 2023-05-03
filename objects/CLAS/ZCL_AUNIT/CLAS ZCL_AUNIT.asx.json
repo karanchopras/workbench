@@ -17,7 +17,7 @@
    {
     "CLSNAME":"ZCL_AUNIT",
     "CLSTYPE":0,
-    "UUID":"UFanXAse7bjqSjWZNEMB",
+    "UUID":"UFanXAse7bqwqMFWiKMB",
     "REMOTE":""
    }
   ]
@@ -73,7 +73,7 @@
    {
     "CLSNAME":"ZCL_AUNIT",
     "LANGU":"E",
-    "DESCRIPT":"Calculator Class"
+    "DESCRIPT":"ZCL_AUNIT"
    }
   ]
  },
@@ -286,19 +286,19 @@
     "CLSNAME":"ZCL_AUNIT",
     "CMPNAME":"ADD",
     "LANGU":"E",
-    "DESCRIPT":"Add Numbers"
+    "DESCRIPT":""
    },
    {
     "CLSNAME":"ZCL_AUNIT",
     "CMPNAME":"MULTIPLY",
     "LANGU":"E",
-    "DESCRIPT":"Multiply Numbers"
+    "DESCRIPT":""
    },
    {
     "CLSNAME":"ZCL_AUNIT",
     "CMPNAME":"SUBTRACT",
     "LANGU":"E",
-    "DESCRIPT":"Subtract Numbers"
+    "DESCRIPT":""
    }
   ]
  },
@@ -377,7 +377,7 @@
     "LOCKED":"",
     "DISPID":0,
     "AUTHOR":"KCHO",
-    "CREATEDON":"2023-04-25",
+    "CREATEDON":"2023-05-03",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "PARDECLTYP":0,
@@ -404,7 +404,7 @@
     "LOCKED":"",
     "DISPID":0,
     "AUTHOR":"KCHO",
-    "CREATEDON":"2023-04-25",
+    "CREATEDON":"2023-05-03",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "PARDECLTYP":3,
@@ -431,7 +431,7 @@
     "LOCKED":"",
     "DISPID":0,
     "AUTHOR":"KCHO",
-    "CREATEDON":"2023-04-25",
+    "CREATEDON":"2023-05-03",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "PARDECLTYP":0,
@@ -458,7 +458,7 @@
     "LOCKED":"",
     "DISPID":0,
     "AUTHOR":"KCHO",
-    "CREATEDON":"2023-04-25",
+    "CREATEDON":"2023-05-03",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "PARDECLTYP":3,
@@ -485,7 +485,7 @@
     "LOCKED":"",
     "DISPID":0,
     "AUTHOR":"KCHO",
-    "CREATEDON":"2023-04-25",
+    "CREATEDON":"2023-05-03",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "PARDECLTYP":0,
@@ -512,7 +512,7 @@
     "LOCKED":"",
     "DISPID":0,
     "AUTHOR":"KCHO",
-    "CREATEDON":"2023-04-25",
+    "CREATEDON":"2023-05-03",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "PARDECLTYP":0,
@@ -539,7 +539,7 @@
     "LOCKED":"",
     "DISPID":0,
     "AUTHOR":"KCHO",
-    "CREATEDON":"2023-04-25",
+    "CREATEDON":"2023-05-03",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "PARDECLTYP":3,
@@ -638,8 +638,8 @@
     "CRELEASE":"",
     "DELFLAG":"",
     "TRANSLTTXT":"",
-    "CREATED_ON":"2023-04-25",
-    "CHECK_DATE":"2023-04-25",
+    "CREATED_ON":"2023-05-03",
+    "CHECK_DATE":"2023-05-03",
     "CHECK_CFG":""
    }
   ]
