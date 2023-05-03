@@ -45,7 +45,6 @@ pipeline {
           abapCredentialsId: DEMOCREDS,
           repository: REPO,            
           verbose:true,
-          atcVariant:'ABAP_CLOUD_READINESS',  
           skipSSLVerification:true,
           scope:'localChangedPackages',
           commit:"${env.GIT_COMMIT}",
