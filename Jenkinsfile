@@ -82,12 +82,7 @@ stage('Rollback') {
             steps {
               gctsRollback(
                 script:this,
-                skipSSLVerification:true,
-                host: HOST,
-                client: CLIENT,
-                abapCredentialsId: DEMOCREDS,
-                repository: REPO
-          )
+                skipSSLVerification:true)
 
       }
     }
