@@ -47,11 +47,11 @@ CLASS ltc_demo_calc_util IMPLEMENTATION.
 
     "when
     DATA(lv_result) = lo_cut->subtract( EXPORTING iv_num1 = 7
-                                                 iv_num2 = 4 ).
+                                                 iv_num2 = 3 ).
     "then
     cl_abap_unit_assert=>assert_equals(
         msg = 'Check the Subtraction Logic!'
-        exp = 3
+        exp = 33
         act = lv_result ).
 
     cl_abap_unit_assert=>assert_differs(
