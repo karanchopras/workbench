@@ -5,6 +5,14 @@ pipeline {
     disableConcurrentBuilds()
   }
   
+  environment {
+    DEMOCREDS= 'ABAP_SP2'
+    HOST= 'https://sapsp2.camelot-idpro.de:44300'
+    CLIENT= '100'
+    REPO= 'karanchopras-workbench'
+    REPO_URL= "https://github.com/karanchopras/workbench"
+  }
+
   stages {
 
     stage('gCTS Deploy') {
@@ -32,6 +40,10 @@ pipeline {
           try {
           gctsExecuteABAPQualityChecks(
           script:this,
+          host: HOST,
+          client: CLIENT,
+          abapCredentialsId: DEMOCREDS,
+          repository: REPO,            
           verbose:true,
           skipSSLVerification:true,
           scope:'localChangedPackages',
