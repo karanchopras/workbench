@@ -16,15 +16,8 @@ pipeline {
       steps {
         gctsDeploy(
           script:this,
-          host:HOST,
-          client:CLIENT,
-          abapCredentialsId:DEMOCREDS,
-          repository:REPO,
           skipSSLVerification:true,
-          remoteRepositoryURL:REPO_URL,
-          verbose:true,
-          role:'SOURCE',
-          vSID:'GIT')
+          verbose:true)
       }
     }
     
