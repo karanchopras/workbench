@@ -28,7 +28,7 @@ START-OF-SELECTION.
 
 *  DATA: v_org_str TYPE string  .
 *  DATA: v_exp_str TYPE string.
-*  v_org_str = 'var V_INPUT = ' && '"' && v_original && '"' && ';'.
+*  v_org_str = 'var V_INPUT = ' && '"' && v_original && '"' && '; '.
 
 **  CONCATENATE 'var V_INPUT = ' '''"'v_original'"'';' INTO v_org_str.
 *
