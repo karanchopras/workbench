@@ -18,10 +18,10 @@ DATA: v_original   TYPE string,
 
 START-OF-SELECTION.
 
-*New Comment 04/06
-
-
+*New Comment 03/06
+*23_03_2023
+*New Comment - 23-11
   v_original = 'BGsy2y_CoojoP8G8BkD_EoBvHU_j6BoB_EwCjDgFvCsEToGA7B0F7BwHnBkIT8GAkIUsJ8B.V1'.
 
   js_processor = cl_java_script=>create( ).
-*  SELECT * FROM mara INTO TABLE @DATA(lt_mara) .
+  SELECT * FROM mara INTO TABLE @DATA(lt_mara).
