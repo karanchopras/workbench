@@ -21,7 +21,7 @@ START-OF-SELECTION.
 *New Comment 04/06
 
 
-  v_original = 'BGsy2y_CoojoP8G8BkD_EoBvHU_j6BoB_EwCjDgFvCsEToGA7B0F7BwHnBkIT8GAkIUsJ8B.V1'.
+  v_original = 'BGsy2y_ CoojoP8G8BkD_EoBvHU_j6BoB_EwCjDgFvCsEToGA7B0F7BwHnBkIT8GAkIUsJ8B.V1'.
 
   js_processor = cl_java_script=>create( ).
 *  SELECT * FROM mara INTO TABLE @DATA(lt_mara) .
