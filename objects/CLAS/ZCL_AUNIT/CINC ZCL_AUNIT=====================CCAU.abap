@@ -39,7 +39,7 @@ CLASS ltc_demo_calc_util IMPLEMENTATION.
     DATA(lv_result) = lo_cut->multiply( 3 ).
     "then
     cl_abap_unit_assert=>assert_equals(
-        msg = 'Something Wrong with Multiplication'
+        msg = 'Something Wrong with Multiplication!'
         exp = 9
         act = lv_result ).
   ENDMETHOD.
@@ -50,8 +50,8 @@ CLASS ltc_demo_calc_util IMPLEMENTATION.
                                                  iv_num2 = 4 ).
     "then
     cl_abap_unit_assert=>assert_equals(
-        msg = 'Check the Subtraction Logic !'
-        exp = 3
+        msg = 'Check the Subtraction Logic!'
+        exp = 4
         act = lv_result ).
 
     cl_abap_unit_assert=>assert_differs(
