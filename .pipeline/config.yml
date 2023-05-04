@@ -1,4 +1,5 @@
 general:
+<<<<<<< HEAD
  verbose: true
  
 steps:
@@ -12,3 +13,17 @@ steps:
   vSID: 'GIT'
   verbose: true
   type: 'GITHUB'
+=======
+  steps:
+    gctsDeploy:
+          client: '100'
+          host: "https://sapsp2.camelot-idpro.de:44300"
+          abapCredentialsId: 'ABAP_SP2'
+          repository: "karanchopras-workbench"
+          remoteRepositoryURL: "https://github.com/karanchopras/workbench"
+          role: 'SOURCE'
+          vSID: 'GIT'
+          verbose: true
+          type: 'GITHUB'
+          rollback: false
+>>>>>>> branch 'main' of https://github.com/karanchopras/workbench

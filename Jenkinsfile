@@ -45,6 +45,12 @@ pipeline {
           abapCredentialsId: DEMOCREDS,
           repository: REPO,            
           verbose:true,
+<<<<<<< HEAD
+=======
+          abapCredentialsId:DEMOCREDS,
+          atcVariant:'ABAP_CLOUD_READINESS',  
+          repository:REPO,
+>>>>>>> branch 'main' of https://github.com/karanchopras/workbench
           skipSSLVerification:true,
           scope:'localChangedPackages',
           commit:"${env.GIT_COMMIT}",
