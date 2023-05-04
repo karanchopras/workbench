@@ -18,7 +18,7 @@ DATA: v_original   TYPE string,
 
 START-OF-SELECTION.
 
-*New Comment 04/05
+*New Comment 04/06
 
 
   v_original = 'BGsy2y_CoojoP8G8BkD_EoBvHU_j6BoB_EwCjDgFvCsEToGA7B0F7BwHnBkIT8GAkIUsJ8B.V1'.
