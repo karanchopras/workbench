@@ -8,7 +8,7 @@ REPORT znp_js_to_format_4.
 
 DATA: js_processor TYPE REF TO cl_java_script,
       js_source    TYPE string,
-      return_value TYPE string.
+      return_value TYPE string .
 * New comment v12
 * Dynamic Expression
 DATA: v_original   TYPE string,
