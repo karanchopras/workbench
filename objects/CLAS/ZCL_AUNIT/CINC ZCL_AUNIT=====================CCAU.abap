@@ -50,7 +50,7 @@ CLASS ltc_demo_calc_util IMPLEMENTATION.
                                                  iv_num2 = 4 ).
     "then
     cl_abap_unit_assert=>assert_equals(
-        msg = 'Check the Subtraction Logic!'
+        msg = 'Check the Subtraction Logic !'
         exp = 4
         act = lv_result ).
 
