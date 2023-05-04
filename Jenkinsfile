@@ -10,7 +10,7 @@ pipeline {
     HOST= 'https://sapsp2.camelot-idpro.de:44300'
     CLIENT= '100'
     REPO= 'karanchopras-workbench'
-    REPO_URL= "https://github.com/karanchopras/workbench"
+    REPO_URL= "https://github.com/karanchopras/workbench" 
   }
 
   stages {
