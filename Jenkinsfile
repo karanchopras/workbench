@@ -47,6 +47,7 @@ pipeline {
           verbose:true,
           skipSSLVerification:true,
           scope:'localChangedPackages',
+          atcVariant:'ABAP_CLOUD_READINESS'
           commit:"${env.GIT_COMMIT}",
           workspace:"${WORKSPACE}")
         } catch (Exception ex) {
