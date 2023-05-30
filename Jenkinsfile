@@ -46,7 +46,7 @@ pipeline {
           repository: REPO,            
           verbose:true,
           skipSSLVerification:true,
-          scope:'localChangedPackages',
+          scope:'localChangedObjects',
           atcVariant:'ABAP_CLOUD_READINESS',
           commit:"${env.GIT_COMMIT}",
           workspace:"${WORKSPACE}")
