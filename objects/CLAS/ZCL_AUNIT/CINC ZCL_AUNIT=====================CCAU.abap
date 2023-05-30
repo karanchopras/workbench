@@ -18,7 +18,7 @@ ENDCLASS.
 CLASS ltc_demo_calc_util IMPLEMENTATION.
 
   METHOD setup.
-    "given - Instantiate the Production Class
+    "given - Instantiate the Production  Class
     lo_cut = NEW zcl_aunit( ).
   ENDMETHOD.
 
