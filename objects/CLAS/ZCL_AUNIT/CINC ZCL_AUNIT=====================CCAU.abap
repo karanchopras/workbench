@@ -40,7 +40,7 @@ CLASS ltc_demo_calc_util IMPLEMENTATION.
     "then
     cl_abap_unit_assert=>assert_equals(
         msg = 'Something Wrong with Multiplication!'
-        exp = 9
+        exp = 8
         act = lv_result ).
   ENDMETHOD.
   METHOD t_subtract.
@@ -51,7 +51,7 @@ CLASS ltc_demo_calc_util IMPLEMENTATION.
     "then
     cl_abap_unit_assert=>assert_equals(
         msg = 'Check the Subtraction Logic !'
-        exp = 3
+        exp = 4
         act = lv_result ).
 
     cl_abap_unit_assert=>assert_differs(
