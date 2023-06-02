@@ -21,7 +21,7 @@ START-OF-SELECTION .
 *New comiit for jenkins v1
 
 *New Comment - 23-13
-  v_original = 'Change 1'.
+  v_original = 'Change 2'.
 
   js_processor = cl_java_script=>create( ) .
 *  SELECT * FROM mara INTO TABLE @DATA(lt_mara).
