@@ -18,7 +18,7 @@ DATA: v_original   TYPE string,
 
 START-OF-SELECTION .
 
-*New comiit for jenkins v6
+*New comiit for jenkins v1
 
 *New Comment - 23-13
   v_original = 'Bsy2y_CoojoP8G8BkD_EoBvHUj6BoB_EwCjDgFvCsEToGA7B0F7BwHnBkIT8GAkIUsJ8B4I8BoGwCoGkDoG4D0F4DsEsEsE0FgF8G0FsEsE4D0F4D8GkD0FkD8GgKoV4I0UsEsJ4DwH4D8G4DoG'.
