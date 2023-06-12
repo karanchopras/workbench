@@ -1,6 +1,3 @@
-general:
- verbose: true
- 
 steps:
  gctsDeploy:
   client: '100'
