@@ -24,8 +24,7 @@ pipeline {
       steps {
         gctsDeploy(
           script:this,
-          skipSSLVerification:true,
-          verbose:true)
+          skipSSLVerification:true)
       }
     }
     
@@ -44,7 +43,6 @@ pipeline {
           client: CLIENT,
           abapCredentialsId: DEMOCREDS,
           repository: REPO,            
-          verbose:true,
           skipSSLVerification:true,
           scope:'remoteChangedObjects',
           atcVariant:'DEFAULT',
