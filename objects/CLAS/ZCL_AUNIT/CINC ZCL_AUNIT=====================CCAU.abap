@@ -29,7 +29,7 @@ CLASS ltc_demo_calc_util IMPLEMENTATION.
     "then
     cl_abap_unit_assert=>assert_equals(
         msg = 'Something Wrong with Addition!'
-        exp = 5
+        exp = 4
         act = lv_result ).
   ENDMETHOD.
 
