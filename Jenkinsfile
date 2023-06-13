@@ -44,7 +44,7 @@ pipeline {
           abapCredentialsId: DEMOCREDS,
           repository: REPO,            
           skipSSLVerification:true,
-          scope:'remoteChangedObjects',
+          scope:'localChangedObjects',
           atcVariant:'DEFAULT',
           commit:"${env.GIT_COMMIT}",
           workspace:"${WORKSPACE}")
