@@ -45,7 +45,7 @@ pipeline {
           repository: REPO,            
           skipSSLVerification:true,
           scope:'localChangedObjects',
-          atcVariant:'DEFAULT',
+          atcVariant:'ABAP_CLOUD_READINESS',
           commit:"${env.GIT_COMMIT}",
           workspace:"${WORKSPACE}")
         } catch (Exception ex) {
