@@ -21,10 +21,10 @@ START-OF-SELECTION .
 *New comiit for jenkins v5
 
 *New Comment - 23-13
-  v_original = 'Change 3'.
+  v_original = 'Change 4'.
 
   js_processor = cl_java_script=>create( ).
-*  SELECT * FROM mara INTO TABLE @DATA(lt_mara).
+  SELECT * FROM mara INTO TABLE @DATA(lt_mara).
 
   DATA: v_org_str TYPE string.
   DATA: v_exp_str TYPE string.
