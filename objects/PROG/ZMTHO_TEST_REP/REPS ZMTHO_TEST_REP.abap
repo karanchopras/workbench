@@ -6,4 +6,4 @@
 REPORT ZMTHO_TEST_REP.
 
 
-WRITE : 'GCTS Test'.
+WRITE : 'GCTS Test' .
