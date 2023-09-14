@@ -1,0 +1,25 @@
+[
+ {
+  "table":"/UI2/SEMOBJC",
+  "nametab":
+  [
+   {
+    "NAME":"SEM_OBJ",
+    "KEY":"X",
+    "TYPE":"C",
+    "LENGTH":30,
+    "DECIMALS":-1
+   }
+  ],
+  "properties":
+  [
+   {
+    "CLIENTDEPENDENCY":"NO",
+    "DELIVERYCLASS":"C",
+    "TABART":"APPL2",
+    "TABFORM":"T",
+    "REFNAME":"-"
+   }
+  ]
+ }
+]

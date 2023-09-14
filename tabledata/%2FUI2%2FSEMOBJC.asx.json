@@ -1,0 +1,17 @@
+[
+ {
+  "table":"/UI2/SEMOBJC",
+  "data":
+  [
+   {
+    "SEM_OBJ":"DDMRP"
+   },
+   {
+    "SEM_OBJ":"ZDDMRPCycle"
+   },
+   {
+    "SEM_OBJ":"ZDDMRPDemo"
+   }
+  ]
+ }
+]

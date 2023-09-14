@@ -1,0 +1,26 @@
+[
+ {
+  "table":"/UI2/SEMOBJCT",
+  "data":
+  [
+   {
+    "LANGUAGE":"E",
+    "SEM_OBJ":"DDMRP",
+    "SEM_OBJ_NAME":"",
+    "SEM_OBJ_TEXT":""
+   },
+   {
+    "LANGUAGE":"E",
+    "SEM_OBJ":"ZDDMRPCycle",
+    "SEM_OBJ_NAME":"DDMRPScenario SemOBj",
+    "SEM_OBJ_TEXT":""
+   },
+   {
+    "LANGUAGE":"E",
+    "SEM_OBJ":"ZDDMRPDemo",
+    "SEM_OBJ_NAME":"ZDDMRP Demo Sem Object",
+    "SEM_OBJ_TEXT":"Semantic Object for ZDDMRP"
+   }
+  ]
+ }
+]

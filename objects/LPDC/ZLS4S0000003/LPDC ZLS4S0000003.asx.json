@@ -1,0 +1,59 @@
+[
+ {
+  "table":"APB_LPD_SH_TEXTS",
+  "data":
+  [
+   {
+    "SAP_OBJECT":0,
+    "UNIQUE_LPD_ID":"ZLS4S0000003",
+    "LANGU":"E",
+    "TEXT_ID":0,
+    "TEXT":"LPD role for DDMRP demo scenario"
+   },
+   {
+    "SAP_OBJECT":0,
+    "UNIQUE_LPD_ID":"ZLS4S0000003",
+    "LANGU":"E",
+    "TEXT_ID":1,
+    "TEXT":"Inactive Applications"
+   },
+   {
+    "SAP_OBJECT":0,
+    "UNIQUE_LPD_ID":"ZLS4S0000003",
+    "LANGU":"E",
+    "TEXT_ID":2,
+    "TEXT":"DDMRP Demo"
+   }
+  ]
+ },
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"LPDC",
+    "OBJ_NAME":"ZLS4S0000003",
+    "KORRNUM":"",
+    "SRCSYSTEM":"...",
+    "AUTHOR":"MTHO",
+    "SRCDEP":"",
+    "DEVCLASS":"ZDDMRP_DMO",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"E",
+    "VERSID":"",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2023-06-01",
+    "CHECK_DATE":"2023-06-01",
+    "CHECK_CFG":""
+   }
+  ]
+ }
+]

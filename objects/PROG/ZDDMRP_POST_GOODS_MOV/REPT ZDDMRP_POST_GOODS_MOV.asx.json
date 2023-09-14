@@ -1,0 +1,43 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"E",
+    "ENTRY":"Post goods movement for DDMRP Scenario",
+    "LENGTH":38
+   },
+   {
+    "ID":"S",
+    "KEY":"P_COSC",
+    "LANG":"E",
+    "ENTRY":"        Cost Center",
+    "LENGTH":19
+   },
+   {
+    "ID":"S",
+    "KEY":"P_CYC",
+    "LANG":"E",
+    "ENTRY":"        Cycle Selection",
+    "LENGTH":23
+   },
+   {
+    "ID":"S",
+    "KEY":"P_SEL",
+    "LANG":"E",
+    "ENTRY":"        Product Selection",
+    "LENGTH":25
+   },
+   {
+    "ID":"S",
+    "KEY":"P_STDT",
+    "LANG":"E",
+    "ENTRY":"        Start Date",
+    "LENGTH":18
+   }
+  ]
+ }
+]

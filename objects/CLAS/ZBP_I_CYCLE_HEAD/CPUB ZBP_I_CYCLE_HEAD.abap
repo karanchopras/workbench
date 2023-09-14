@@ -1,0 +1,1 @@
+CLASS zbp_i_cycle_head DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_cycle_head.
